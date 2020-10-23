@@ -599,6 +599,11 @@ Use -z to print zhushi, -h to print hanyi, or both to print both of them."""
             a+=1
 
     def do_hanyi(self, arg):
+        """Training mode for hanyi.
+USAGE: hanyi {form4|form5|all} [<start>] [<end>] [--p]
+<start> and <end> is used to specify scope of Mingju to select. (TYPE=integer)
+<start> is the index of first mingju, whereas <end> is the index of last mingju. All mingju between these two will be taken.
+--p enable probabilistic training."""
         start = end = None
         arg = arg.split()
         options = {"form4":[form4, m4, list(p4m)], "form5":[form5, m5, list(p5m)], "all":[form4+"\n"+form5, m4+"\n"+m5, list(p4m+p5m)]}
