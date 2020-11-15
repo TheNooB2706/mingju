@@ -244,7 +244,7 @@ class shell(Cmd):
     prompt = ">>> "
 
     def do_train(self, arg):
-        """Launch training. Training will begin with infinite loop on the selected mingju until you press CTRL-C to exit. Questions that are answered wrongly will show up more frequent.
+        """Launch training. Training will begin with infinite loop on the selected mingju until you press Ctrl-C to exit. Questions that are answered wrongly will show up more frequent.
 USAGE: train {form4|form5|all} [<start>] [<end>] [--p]
 <start> and <end> is used to specify scope of Mingju to select. (TYPE=integer)
 <start> is the index of first mingju, whereas <end> is the index of last mingju. All mingju between these two will be taken.
@@ -348,7 +348,7 @@ USAGE: train {form4|form5|all} [<start>] [<end>] [--p]
             return
 
     def do_quiz(self, arg):
-        """Launch quiz. quiz differs from train in terms of:
+        """Launch quiz. Ctrl-C to quit. quiz differs from train in terms of:
 1) quiz will not provide any answer at the time of answering.
 2) One question will only appear once.
 3) Score will be shown once quiz is finished.
@@ -431,7 +431,7 @@ USAGE: quiz {form4|form5|all} [<start>] [<end>]
             return
 
     def do_zhushi(self, arg):
-        """Training mode for zhushi. Loop infinitely until you press Ctrl+C. Questions that are answered wrongly will show up more frequent.
+        """Training mode for zhushi. Loop infinitely until you press Ctrl+C to quit. Questions that are answered wrongly will show up more frequent.
 USAGE: zhushi {form4|form5|all} [--p]
 --p enable probabilistic training."""
         arg = arg.split()
@@ -599,7 +599,7 @@ Use -z to print zhushi, -h to print hanyi, or both to print both of them."""
             a+=1
 
     def do_hanyi(self, arg):
-        """Training mode for hanyi.
+        """Training mode for hanyi. Ctrl-C to quit.
 USAGE: hanyi {form4|form5|all} [<start>] [<end>] [--p]
 <start> and <end> is used to specify scope of Mingju to select. (TYPE=integer)
 <start> is the index of first mingju, whereas <end> is the index of last mingju. All mingju between these two will be taken.
@@ -721,10 +721,7 @@ USAGE: hanyi {form4|form5|all} [<start>] [<end>] [--p]
         print("中学生背名句")
         print("Version: "+version)
         print("Created by: TheNooB")
-        print("Follow me on Instagram: @py.i.nc")
-        print("Subscribe to my YouTube channel: https://www.youtube.com/channel/UC2YiviEyZGj0NfaaY4y7cHQ")
-        print("Drop me a message if you find any bug. Feature requests are accepted.")
-        print("Contact me at noobchannel2706@gmail.com.")
+        print("Github project page: https://github.com/TheNooB2706/mingju")
 
     do_EOF = do_exit
 
