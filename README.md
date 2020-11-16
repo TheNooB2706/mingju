@@ -28,7 +28,7 @@ Currently it has to ability to help you memorise the mingju itself (fill in the 
 **"Build" from source** *Well you know, tihs is written in python, so you don't need to build anything*
 1. Clone the repo (install git first). **Alternatively** you can download the repo as zip file at top right corner.  
 ```
-git clone https://github.com/TheNooB2706/mingju.git
+git clone git://github.com/TheNooB2706/mingju.git
 ```  
 2. Install python.
 3. Install the requirements
@@ -44,6 +44,30 @@ python mingju.py
 Otherwise, you can **download releases.**
 1. Download [release](https://github.com/TheNooB2706/mingju/releases) for your system.  
 2. Run.
+
+**Installation instruction for Android phones**
+1. Install [Termux](https://play.google.com/store/apps/details?id=com.termux&hl=en&gl=US).
+2. Open Termux app.
+3. Install git and python.
+```
+pkg install git python
+```
+4. Clone the repository.
+```
+git clone git://github.com/TheNooB2706/mingju.git
+```
+5. Change directory to "mingju".
+```
+cd mingju
+```
+6. Install requirements.
+```
+pip install -r requirements.txt
+```
+7. Run the program.
+```
+python mingju.py
+```
 
 # Usage
 [(Back to top)](#table-of-contents)  
