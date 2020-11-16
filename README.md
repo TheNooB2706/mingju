@@ -1,7 +1,7 @@
 <!-- Add banner here -->
 
 # 中学生背名句
-Mingju is one of the hardest but easiest to score part in SPM Chinese examination. Hardest because it involves memorising of a bunch of idiom, but easiest because well it is the only section that you can prepare for the exam and be definite that it will come out, thus becoming a must score section. As a person who absolutely hate memorising stuff, I created this tool to aid the memorising process, and hopefully also help anyone who struggles with the same problem. This tool is intended to help you memorise mingju without asking your friend to test your progress (or when you don't have friends :().
+Mingju is one of the hardest but easiest to score part in SPM Chinese examination. Hardest because it involves memorising of a bunch of idioms, but easiest because well it is the only section that you can prepare for the exam and be sure that it will come out, thus becoming a must score section. As a person who absolutely hate memorising stuff, I created this tool to aid the memorising process, and hopefully also help anyone who struggles with the same problem. This tool is intended to help you memorise mingju without asking your friend to test your progress (or when you don't have friends :().
 
 Currently it has to ability to help you memorise the mingju itself (fill in the blank, which is the easiest of all), zhushi as well as hanyi (by computing similarity score using difflib).
 
@@ -113,6 +113,8 @@ List of commands:
 [(Back to top)](#table-of-contents)  
 
 Features request? Found bugs? Typo? Open an [issue](https://github.com/TheNooB2706/mingju/issues). Or if you don't have a GitHub account, email me at `noobchannel2706@gmail.com`.
+
+Also a Chinese README translation would be nice. I have tried translating myself, but it is too weird so I gave up.
 
 # License
 [(Back to top)](#table-of-contents)
