@@ -577,9 +577,7 @@ Use -z to print zhushi, -h to print hanyi, or both to print both of them."""
         elif arg[0] == "form5":
             zhushilist = zhushi5
         else:
-            zs5temp = list(zhushi5)
-            for i in zs5temp:
-                i[0] = i[0] + 40
+            zs5temp = [[x[0]+40, x[1]] for x in zhushi5]
             zhushilist = zhushi4 + zs5temp
 
         textlist = options[arg[0]][0].split("\n")
