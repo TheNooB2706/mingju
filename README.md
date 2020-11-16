@@ -25,25 +25,21 @@ Currently it has to ability to help you memorise the mingju itself (fill in the 
 # Installation
 [(Back to top)](#table-of-contents)  
 
-**"Build" from source** *Well you know, tihs is written in python, so you don't need to build anything*
-1. Clone the repo (install git first). **Alternatively** you can download the repo as zip file at top right corner.  
-```
-git clone git://github.com/TheNooB2706/mingju.git
-```  
-2. Install python.
-3. Install the requirements
-```
-cd mingju
-pip install -r requirements.txt
-```  
-4. Run the code.
-```
-python mingju.py
-```
-
-Otherwise, you can **download releases.**
+**Download releases.**
 1. Download [release](https://github.com/TheNooB2706/mingju/releases) for your system.  
-2. Run.
+   **Windows**  
+   Download `mingju_windows_XXX.exe` file. x86 for 32bit system, x86_64 for 64bit system  
+   **Linux**  
+   Download `mingju_linux_XXX` file. x86 for 32bit system, x86_64 for 64bit system. Then make it executable: `chmod +x mingju_linux_XXX`  
+   **Mac**
+   Pending
+2. Run.  
+   **Windows**  
+   Double click on the file downloaded. It should be launched.  
+   **Linux**
+   Open terminal in the directory you put the file, then execute it: `./mingju_linux_XXX`
+   **Mac**
+   Pending
 
 **Installation instruction for Android phones**
 1. Install [Termux](https://play.google.com/store/apps/details?id=com.termux&hl=en&gl=US).
@@ -65,6 +61,22 @@ cd mingju
 pip install -r requirements.txt
 ```
 7. Run the program.
+```
+python mingju.py
+```
+
+**"Build" from source** *Well you know, tihs is written in python, so you don't need to build anything*
+1. Clone the repo (install git first). **Alternatively** you can download the repo as zip file at top right corner.  
+```
+git clone git://github.com/TheNooB2706/mingju.git
+```  
+2. Install python.
+3. Install the requirements
+```
+cd mingju
+pip install -r requirements.txt
+```  
+4. Run the code.
 ```
 python mingju.py
 ```
