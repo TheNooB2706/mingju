@@ -37,7 +37,7 @@ Currently it has to ability to help you memorise the mingju itself (fill in the 
    **Windows**  
    Double click on the file downloaded. It should be launched.  
    **Linux**
-   Open terminal in the directory you put the file, then execute it: `./mingju_linux_XXX`
+   Open terminal in the directory you put the file, then execute it: `./mingju_linux_XXX`  
    **Mac**
    Pending
 
