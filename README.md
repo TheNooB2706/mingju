@@ -64,6 +64,8 @@ pip install -r requirements.txt
 python mingju.py
 ```
 
+>*You might notice that you [cannot type chinese](https://github.com/termux/termux-app/issues/202) in Termux, that is because Termux does not support that. Instead, use the [Text Input View](https://wiki.termux.com/wiki/Touch_Keyboard#Text_Input_View).*
+
 **"Build" from source** *Well you know, tihs is written in python, so you don't need to build anything*
 1. Clone the repo (install git first). **Alternatively** you can download the repo as zip file at top right corner.  
 ```
