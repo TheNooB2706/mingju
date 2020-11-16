@@ -12,12 +12,11 @@ Currently it has to ability to help you memorise the mingju itself (fill in the 
 ![Demo](https://i.ibb.co/4RGyGp2/mingjudemo.gif)
 
 # Table of contents
-- [Project Title](#project-title)
+- [Project Title](#中学生背名句)
 - [Demo-Preview](#demo-preview)
 - [Table of contents](#table-of-contents)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Development](#development)
 - [Contribute](#contribute)
 - [License](#license)
 - [Footer](#footer)
@@ -31,14 +30,14 @@ Currently it has to ability to help you memorise the mingju itself (fill in the 
    Download `mingju_windows_XXX.exe` file. x86 for 32bit system, x86_64 for 64bit system  
    **Linux**  
    Download `mingju_linux_XXX` file. x86 for 32bit system, x86_64 for 64bit system. Then make it executable: `chmod +x mingju_linux_XXX`  
-   **Mac**
+   **Mac**  
    Pending
 2. Run.  
    **Windows**  
    Double click on the file downloaded. It should be launched.  
-   **Linux**
+   **Linux**  
    Open terminal in the directory you put the file, then execute it: `./mingju_linux_XXX`  
-   **Mac**
+   **Mac**  
    Pending
 
 **Installation instruction for Android phones**
@@ -151,6 +150,8 @@ List of commands:
 Features request? Found bugs? Typo? Open an [issue](https://github.com/TheNooB2706/mingju/issues). Or if you don't have a GitHub account, email me at `noobchannel2706@gmail.com`.
 
 Also a Chinese README translation would be nice. I have tried translating myself, but it is too weird so I gave up.
+
+You can also help by making binary of this project for the architecture or OS that aren't being made yet.
 
 # License
 [(Back to top)](#table-of-contents)
