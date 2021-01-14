@@ -5,6 +5,8 @@ Mingju is one of the hardest but easiest to score part in SPM Chinese examinatio
 
 Currently it has to ability to help you memorise the mingju itself (fill in the blank, which is the easiest of all), zhushi as well as hanyi (by computing similarity score using difflib).
 
+Oh yeah, 2020 is the last year of current syllabus with mingju, so no one will use this after this SPM. Good luck everyone.
+
 # Demo-Preview
 
 <!-- Add a demo for your project -->
